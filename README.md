@@ -11,6 +11,7 @@ Summary: In this assignment students were tasked to create a simple game about p
 
 *PROJECT 2*: (Rock-Paper-Scissors_Game.py)
 Summary: In this assignment students were tasked to create a simple game that allows players to play the classic game of "Rock-Paper-Scissors" against the computer. 
+
 ***Key features***:  
   - Uses a random number generator to have the computer choose its move (rock paper, or scissors).
   - Keeps track of the score (displays the wins/losses/ties)
@@ -19,12 +20,14 @@ Summary: In this assignment students were tasked to create a simple game that al
 
 *PROJECT 3*: (simple_calculator.py)
 Summary: In this assignment students were tasked to create a simple calculator rpogram that allows the user to perform basic mathematical operations
+
 ***Key Features***:
   - Program defines five functions, one for each mathematical operation, that takes two parameters (two numbers player inputs) and return the result of the operation
   - Program continues to display the menu of options and allows the user to perform multiple calculations until the user chooses to quit the program.
 
 *PROJECT 4*: (Mad-lib.py)
 Summary: In this assignment students were tasked to create a fun and interactive game that allows users to input words and generate a nonsensical story.
+
 ***Key Features***:
   - Created appropriate variable names 
   - Asks the user to enter words for the blanks in the story. You can use the input() function to get user input
@@ -33,6 +36,7 @@ Summary: In this assignment students were tasked to create a fun and interactive
 
 *PROJECT 5*: (Secure_login_system.py)
 Summary: In this assignment students were tasked with creating a program that implements a secure login system. Users should be able to enter their username and password, and the system will verify the credentials. The username comparison should be case-insensitive, while the password must match exactly.
+
 ***Key Features***:
   - Has appropriate variable names
   - Gets user input for username and password
