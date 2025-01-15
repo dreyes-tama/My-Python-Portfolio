@@ -3,6 +3,7 @@ This is a collection of 5 projects I am most proud of this year. It is an accumu
 
 *PROJECT 1*: (pokemon_simulator.py)
 Summary: In this assignment students were tasked to create a simple game about pokemon evolution where players will choose activities to help them level up their pokemon. 
+
 ***Key Features***:
   - Keeps track of the number of day passeds in the game, evolution level, and pokemon name
   - Presents a variey of tasks users can choose from: battling (random outcome) , training (evolving), resting(display info), or quitting the game.
