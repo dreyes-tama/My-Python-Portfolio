@@ -6,13 +6,17 @@
 import random
 
 #Global variables
+#This codes for the beginning stats.
 pokemon_level = 0
 pokemon_name = "froakie"
 day = 0
 
 
-# Functions⠀⠀⠀
-def draw_pokemon():
+# Functions⠀⠀
+
+def draw_pokemon(): 
+#This function sets conditions for what image/message is displayed based on the pokemon level. 
+#This helps keep track of evolutions.
     global pokemon_level
     if pokemon_level < 5:
         print("""
@@ -97,6 +101,7 @@ def draw_pokemon():
 
 
 def train():
+#This function is an activity option where pokemon can level up by 1. 
     print("Your pokemon did 10 pushups!")
     global pokemon_level
     pokemon_level = pokemon_level + 1
@@ -105,6 +110,7 @@ def train():
     day = day + 1
 
 def gym_battle():
+#This function is an activity option where players have a 50% chance of winning a gym battle and leveling up their pokemon.
     global pokemon_level
     global day
     day = day + 1
@@ -118,6 +124,7 @@ def gym_battle():
         print("The battle has now finished. Your pokemon is now at level " + str(pokemon_level))
 
 def display_pokemon():
+#This function displays all the up to date stats of the player's game.
     print("Today your pokemon will rest :)")
     print("Meanwhile, take a look at some stats!")
     global day
@@ -126,6 +133,7 @@ def display_pokemon():
     draw_pokemon()
 
 def evolve_pokemon():
+#This game sets conditionals to display a message whenever a player's pokemon evolves.
     global pokemon_name
     if pokemon_level < 5 :
         pokemon_name = "Froakie"
@@ -137,6 +145,7 @@ def evolve_pokemon():
         print("Your pemon evolved into " + pokemon_name + "!!!")
 
 def pokemon_game():
+#This function combines all the functions to create the screen page, includes welcoming the player and displaying all activity options.  
     global day
     while True:
         print("Welcome to Pokemon Evolution. Today is day " + str(day))
